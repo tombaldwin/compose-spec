@@ -1798,7 +1798,7 @@ volumes:
 #### Short syntax
 
 The short syntax uses a single string with comma-separated values to specify a volume mount
-(`VOLUME:CONTAINER_PATH`), or an access mode (`VOLUME:CONTAINER:ACCESS_MODE`).
+(`VOLUME:CONTAINER_PATH`), or an access mode (`VOLUME:CONTAINER_PATH:ACCESS_MODE`).
 
 `VOLUME` MAY be either a host path on the platform hosting containers (bind mount) or a volume name.
 `ACCESS_MODE` MAY be set as read-only by using `ro` or read and write by using `rw` (default).
